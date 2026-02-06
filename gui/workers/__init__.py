@@ -1,0 +1,7 @@
+"""
+Worker threads for SproutCV
+"""
+
+from .pipeline_worker import PipelineWorker
+
+__all__ = ['PipelineWorker']
