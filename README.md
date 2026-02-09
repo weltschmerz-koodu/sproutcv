@@ -322,8 +322,8 @@ Input Image → Preprocessing → Contour Detection → Skeletonization
                Mean Shift      Find Contours      Skeleton Graph
                Gaussian Blur   Filter by Area     Find Endpoints
                Thresholding    Group by Rows      Shortest Path
-               Morphology           ↓                  ↓
-Results ← Measurement ← Path Simplification ← Length Calculation
+               Morphology                               ↓
+                     Results ← Measurement ← Path Simplification
 ```
 
 ### Key Algorithms
